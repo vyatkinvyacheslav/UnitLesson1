@@ -31,6 +31,7 @@ public class CashbackHackServiceTest {
         int expected = 1000;
 
         assertEquals(expected, actual);
+        
 
     }
 
@@ -107,7 +108,7 @@ public class CashbackHackServiceTest {
         int expected = 1000;
 
         assertEquals(expected, actual);
-        
+
 
     }
 }
