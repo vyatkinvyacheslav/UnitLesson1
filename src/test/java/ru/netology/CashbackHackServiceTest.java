@@ -3,8 +3,13 @@ package ru.netology;
 
 //import org.junit.jupiter.api.Test;
 
-import org.testng.annotations.Test;
-import static org.testng.Assert.assertEquals;
+import org.junit.Test;
+import org.junit.Assert;
+
+import static org.junit.Assert.assertEquals;
+
+//import org.testng.annotations.Test;
+//import static org.testng.Assert.assertEquals;
 
 public class CashbackHackServiceTest {
     @Test
@@ -14,7 +19,7 @@ public class CashbackHackServiceTest {
         int actual = service.remain(amount);
         int expected = 700;
 
-        assertEquals(actual, expected);
+        assertEquals(expected, actual);
 
     }
 
@@ -25,7 +30,7 @@ public class CashbackHackServiceTest {
         int actual = service.remain(amount);
         int expected = 1000;
 
-        assertEquals(actual, expected);
+        assertEquals(expected, actual);
 
     }
 
@@ -36,7 +41,7 @@ public class CashbackHackServiceTest {
         int actual = service.remain(amount);
         int expected = 999;
 
-        assertEquals(actual, expected);
+        assertEquals(expected, actual);
 
     }
 
@@ -47,7 +52,7 @@ public class CashbackHackServiceTest {
         int actual = service.remain(amount);
         int expected = 1;
 
-        assertEquals(actual, expected);
+        assertEquals(expected, actual);
 
     }
     @Test
@@ -57,7 +62,7 @@ public class CashbackHackServiceTest {
         int actual = service.remain(amount);
         int expected = 1000;
 
-        assertEquals(actual, expected);
+        assertEquals(expected, actual);
 
     }
 
@@ -68,7 +73,7 @@ public class CashbackHackServiceTest {
         int actual = service.remain(amount);
         int expected = 999;
 
-        assertEquals(actual, expected);
+        assertEquals(expected, actual);
 
     }
 
@@ -79,7 +84,7 @@ public class CashbackHackServiceTest {
         int actual = service.remain(amount);
         int expected = 800;
 
-        assertEquals(actual, expected);
+        assertEquals(expected, actual);
 
     }
 
@@ -90,7 +95,7 @@ public class CashbackHackServiceTest {
         int actual = service.remain(amount);
         int expected = 1;
 
-        assertEquals(actual, expected);
+        assertEquals(expected, actual);
 
     }
 
@@ -101,7 +106,7 @@ public class CashbackHackServiceTest {
         int actual = service.remain(amount);
         int expected = 1000;
 
-        assertEquals(actual, expected);
+        assertEquals(expected, actual);
 
     }
 }
